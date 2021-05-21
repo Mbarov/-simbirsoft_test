@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Вопрос 5</title>
+<meta  charset="utf-8">
+</head>
+<body>
+<h3>Вопрос 5</h3>
+<form action="{% url 'res' %}" >
+<h5>{{quest5.quest}}</h5>
+<ol type='A'>
+    <li><input type='radio' name='answ5' required value='A'> {{quest5.A}} </li><br>
+    <li><input type='radio' name='answ5' value='B'> {{quest5.B}} </li><br>
+    <li><input type='radio' name='answ5' value='C'> {{quest5.C}} </li><br>
+    <li><input type='radio' name='answ5' value='D'> {{quest5.D}} </li><br>
+    <input type='submit' value='Следующий вопрос'>
+    </ol>
+</form>
+</body>
+</html>

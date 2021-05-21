@@ -17,5 +17,15 @@ from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-]
+    path('', views.start),
+    path('data/', views.data),
+    path('q1/', views.q1,name='p1'),
+    path('q2', views.q2,name='p2'),
+    path('q3/', views.q3,name='p3'),
+    path('q4/', views.q4,name='p4'),
+    path('q5/', views.q5,name='p5'),
+    path('result/', views.result,name='res'),
+
+# urlpatterns = [
+#     path('admin/', admin.site.urls),
+# ]

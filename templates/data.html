@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ввод данных</title>
+<meta  charset="utf-8">
+</head>
+<body>
+<h1>Введите ваши данные</h1>
+<form action="{% url 'p1' %}">
+<p>Имя*<input type='text' placeholder='Имя' name='fname' required></p>
+<p>Фамилия*<input type='text' placeholder='фамилия' name='lname' required></p>
+<p>Возраст<input type='text' placeholder='Возраст' name='age' ></p>
+<p>Почтовый адрес<input type='email' placeholder='Почтовый адрес' name='post' ></p>
+<p>Телефон*<input type='tel' placeholder='Телефон' name='phone' required ></p>
+<p><input type='submit'></p>
+</form>
+</body>
+</html>
