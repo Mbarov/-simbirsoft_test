@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<title>Тестирование</title>
+<title>Финиш</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -14,9 +14,9 @@
     color:black;
 }
 
-.dropdown-toggle{
+.dropdown-menu{
     background-color:rgb(224,227,232);
-    color:black;
+    color: black;
 }
 .col-sm-2{
     width: 50px;
@@ -54,7 +54,24 @@ body{
 html{
     height: 100%;
 }
-
+.form1{
+    margin-top: 7%;
+    text-align: center;
+    color:black;
+}
+.form2{
+    margin-top: 3%;
+    text-align: center;
+    color:black;
+}
+.btn-success{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    margin:0 auto;
+}
 </style>
 </head>
 <body>
@@ -131,54 +148,11 @@ html{
 
     </div>
 </nav>
-
-<div class="container">
-  <h2 id='nameform' class="form-group">Введите ваши данные</h2>
-  <form class="form-group" action="{% url 'p1' %}">
-
-    <div class="form-group">
-      <label class="control-label col-sm-2" for="email" required>Имя*:</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control"  placeholder="Введите ваше имя" name='fname'>
-      </div>
-    </div>
-
-    <div class="form-group">
-    <label class="control-label col-sm-2" for="email" required>Фамилия*:</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control"  placeholder="Введите вашу фамилию" name='lname'>
-    </div>
-  </div>
-    
-
-    <div class="form-group">
-    <label class="control-label col-sm-2" for="email">Возраст:</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control"  placeholder="Введите ваш возраст" name='age'>
-      </div>
-    </div>   
-
-    <div class="form-group">
-    <label class="control-label col-sm-2" for="email">Почта:</label>
-      <div class="col-sm-10">
-        <input type="email" class="form-control"  placeholder="Почтовый адрес" name='post'>
-      </div>
-    </div>   
-
-    <div class="form-group">
-    <label class="control-label col-sm-2" for="email">Телефон:</label>
-      <div class="col-sm-10">
-        <input type="tel" class="form-control"  placeholder="Телефон" name='phone' required>
-      </div>
-    </div>   
-    </div>
-
-    <div class="form-group">        
-      <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" id='button' class="btn btn-primary">Начать!</button>
-      </div>
-    </div>
-  </form>
-</div>
+<h3 class='form1'>Финиш!</h3>
+<form action="{% url 'res' %}"  >
+<h4 class='form2'>Вы ответили на все вопросы! Настало время узнать результат.</h4>
+<input type='submit' class="btn btn-success" value='Узнать результат!'>
+</form>
 </body>
 </html>
+

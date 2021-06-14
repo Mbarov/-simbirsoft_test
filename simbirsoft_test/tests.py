@@ -4,8 +4,6 @@ from .services import QuizResultService
 from .dto import ChoiceDTO, QuestionDTO, QuizDTO, AnswerDTO, AnswersDTO
 
 
-classTestCase(TestCase):
-    def 
 
 # class BaseTestCase(TestCase):
 #     def setUp(self):

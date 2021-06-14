@@ -24,9 +24,6 @@ urlpatterns = [
     path('q3/', views.q3,name='p3'),
     path('q4/', views.q4,name='p4'),
     path('q5/', views.q5,name='p5'),
+    path('finish/', views.finish,name='finish'),
     path('result/', views.result,name='res')
 ]
-
-# urlpatterns = [
-#     path('admin/', admin.site.urls),
-# ]
