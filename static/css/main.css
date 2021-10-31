@@ -1,0 +1,95 @@
+.navbar {
+    background-color: rgb(224, 227, 232);
+    color: black;
+}
+
+.dropdown-toggle {
+    background-color: rgb(224, 227, 232);
+    color: black;
+}
+
+.jumbotron {
+    padding: 1em;
+    border-radius: 2;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.col-sm-2 {
+    width: 50px;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: auto;
+    margin-top: 10px;
+}
+
+.form-group {
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    position: relative;
+}
+
+.btn-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    margin: 0 auto
+}
+
+.col-sm-10 {
+    margin-top: 5px;
+    width: 60%;
+    margin-right: 10%;
+}
+
+#button {
+    margin-top: 20px;
+    margin-left: 50%;
+}
+
+#nameform {
+    padding-bottom: 30px;
+    padding-left: 35%;
+}
+
+html {
+    height: 100%;
+}
+
+.text {
+    margin-top: 2%;
+    text-align: center;
+    color: black;
+}
+
+.form {
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: black;
+}
+
+.form1 {
+    margin-top: 7%;
+    text-align: center;
+    color: black;
+}
+
+.form2 {
+    margin-top: 3%;
+    text-align: center;
+    color: black;
+}
+
+.btn-success {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    margin: 0 auto;
+}
