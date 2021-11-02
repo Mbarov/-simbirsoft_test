@@ -16,4 +16,3 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'simbirsoft_test.settings')
 
 application = get_wsgi_application()
 application = DjangoWhiteNoise(application)
-
