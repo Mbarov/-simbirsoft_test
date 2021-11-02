@@ -1,1 +1,1 @@
-web: gunicorn simbirsoft_test.wsgi --log-file--
+web: gunicorn simbirsoft_test.wsgi
