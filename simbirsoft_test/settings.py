@@ -125,7 +125,7 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static') #для выкладывания в сеть на heroku
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') #для выкладывания в сеть на heroku
 
 # import dj_database_url #для выкладывания в сеть на heroku
 # db_from_env = dj_database_url.config() #для выкладывания в сеть на heroku
